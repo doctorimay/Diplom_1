@@ -28,7 +28,7 @@ public class IngredientTypeTest {
     }
 
     @Test
-    public void IngredientTypeTest() {
+    public void ingredientTypeTest() {
         Ingredient ingredient = new Ingredient(type, name, price);
         assertEquals("Неккоректное значение", type, ingredient.getType());
     }

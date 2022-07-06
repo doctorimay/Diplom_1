@@ -15,7 +15,7 @@ public class BunTest {
     }
 
     @Test
-    public void isBunPriceCorrectTesr() {
+    public void isBunPriceCorrectTest() {
         assertEquals(bunPrice, bun.getPrice(), 0);
     }
 
